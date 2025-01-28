@@ -1,11 +1,16 @@
-// Função soma
-function soma(num1, num2) {
-    return num1 + num2;
+// Função verificarPar
+function verificarPar(numero) {
+    if (numero % 2 === 0) {
+      return "Par";
+    } else {
+      return "Ímpar";
+    }
   }
   
-  // Chamando a função com diferentes valores
-  console.log(soma(5, 3)); // Resultado: 8
-  console.log(soma(10, 15)); // Resultado: 25
-  console.log(soma(-4, 7)); // Resultado: 3
-  console.log(soma(0, 0)); // Resultado: 0
+  // Exemplos de uso
+  console.log(verificarPar(4)); // Resultado: "Par"
+  console.log(verificarPar(7)); // Resultado: "Ímpar"
+  console.log(verificarPar(0)); // Resultado: "Par"
+  console.log(verificarPar(-5)); // Resultado: "Ímpar"
+  
   
