@@ -1,16 +1,12 @@
-// Função verificarPar
-function verificarPar(numero) {
-    if (numero % 2 === 0) {
-      return "Par";
-    } else {
-      return "Ímpar";
-    }
-  }
-  
-  // Exemplos de uso
-  console.log(verificarPar(4)); // Resultado: "Par"
-  console.log(verificarPar(7)); // Resultado: "Ímpar"
-  console.log(verificarPar(0)); // Resultado: "Par"
-  console.log(verificarPar(-5)); // Resultado: "Ímpar"
+// Função potencia
+function potencia(base, expoente) {
+  return Math.pow(base, expoente);
+}
+
+// Exemplos de uso
+console.log(potencia(2, 3)); // Resultado: 8
+console.log(potencia(5, 2)); // Resultado: 25
+console.log(potencia(10, 0)); // Resultado: 1
+console.log(potencia(3, -2)); // Resultado: 0.111... (1/9)
   
   
