@@ -1,16 +1,10 @@
-// Função fatorial
-function fatorial(numero) {
-  if (numero === 0) return 1; // O fatorial de 0 é 1
-
-  let resultado = 1;
-  for (let i = numero; i > 1; i--) {
-    resultado *= i;
-  }
-  return resultado;
+// Função contarCaracteres
+function contarCaracteres(texto) {
+  return texto.length;
 }
 
 // Exemplos de uso
-console.log(fatorial(5)); // Resultado: 120 (5 * 4 * 3 * 2 * 1)
-console.log(fatorial(7)); // Resultado: 5040
-console.log(fatorial(0)); // Resultado: 1
-console.log(fatorial(1)); // Resultado: 1
+console.log(contarCaracteres("JavaScript")); // Resultado: 10
+console.log(contarCaracteres("Olá, mundo!")); // Resultado: 12
+console.log(contarCaracteres("")); // Resultado: 0 (string vazia)
+console.log(contarCaracteres("1234567890")); // Resultado: 10
